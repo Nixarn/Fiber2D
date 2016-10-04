@@ -139,6 +139,7 @@
 		08C1CB4D1D917B0A006CDCCB /* PhysicsBody+Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1CB4C1D917B0A006CDCCB /* PhysicsBody+Simulation.swift */; };
 		08C1CB4F1D919BCA006CDCCB /* PhysicsShape+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1CB4E1D919BCA006CDCCB /* PhysicsShape+Internal.swift */; };
 		08C1CB511D91B000006CDCCB /* PhysicsBody+Joints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1CB501D91B000006CDCCB /* PhysicsBody+Joints.swift */; };
+		08DFD3F61DA3DA49003E6BDD /* TypeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DFD3F51DA3DA49003E6BDD /* TypeContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -376,6 +377,7 @@
 		08C1CB4C1D917B0A006CDCCB /* PhysicsBody+Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhysicsBody+Simulation.swift"; sourceTree = "<group>"; };
 		08C1CB4E1D919BCA006CDCCB /* PhysicsShape+Internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhysicsShape+Internal.swift"; sourceTree = "<group>"; };
 		08C1CB501D91B000006CDCCB /* PhysicsBody+Joints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhysicsBody+Joints.swift"; sourceTree = "<group>"; };
+		08DFD3F51DA3DA49003E6BDD /* TypeContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -728,6 +730,7 @@
 		08855BDC1D9DA6340090EA84 /* typedefs */ = {
 			isa = PBXGroup;
 			children = (
+				08DFD3F51DA3DA49003E6BDD /* TypeContainer.swift */,
 				08855BDD1D9DA6340090EA84 /* enums */,
 			);
 			path = typedefs;
@@ -1046,6 +1049,7 @@
 				08C1CB181D8EFFD5006CDCCB /* cpDampedRotarySpring.c in Sources */,
 				087BFA0E1D82D1BE00F940D4 /* Component.swift in Sources */,
 				08C1CB261D8EFFD5006CDCCB /* cpShape.c in Sources */,
+				08DFD3F61DA3DA49003E6BDD /* TypeContainer.swift in Sources */,
 				08C1CB3F1D913C71006CDCCB /* PhysicsWorld+Joints.swift in Sources */,
 				08C1CB471D915A1A006CDCCB /* PhysicsWorld+Shapes.swift in Sources */,
 				08C1CB411D914A07006CDCCB /* PhysicsWorld+Bodies.swift in Sources */,
